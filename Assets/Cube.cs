@@ -13,9 +13,9 @@ public class Cube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            Debug.Log("A ya bastın");
+            Debug.Log("D ye bastın");
         }
     }
 }
